@@ -23,6 +23,12 @@ li{
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
+/*------------------------------------------------------- degradation du navbar-------------------------------------------------*/
+.trn
+{
+  background-image: linear-gradient( ,rgba(0,0,0,0));
+
+}
 
 /***********************************************footer**********************************************/
 
@@ -70,17 +76,22 @@ li{
     margin-bottom: 10px;
 }
 }
-/************************************************form contatc********************************/
-
+/************************************************body img********************************/
+/*
 body {
   
-  background-image:url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image:url("https://images.pexels.com/photos/915984/pexels-photo-915984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
-
-  
+*/
+  body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.83' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cuse fill='%23fafafa' href='%23s' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='2'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  }
 }
 /*-------------------------------------------------background description-----------------------------------*/
 .fontcolor{
@@ -88,7 +99,7 @@ body {
   color: white;
   opacity: 0.5 ;
 }
-
+/*-----------------------font border titre---------------------------------------*/
  .font-border{
     padding-left: 10px;
     border-left: 3px solid #635f5f;
@@ -97,6 +108,122 @@ body {
     font-size: 50px;
 }
 
-img:hover  {
+.hove-big:hover  {
   transform: scale(1.1);
 }
+.hove-coler:hover{
+  background-color: white;
+}
+
+
+/*-------------------------------form icons--------------------------------------------------*/
+input[type=email] {
+  
+  background-image: url('https://img.icons8.com/fluent-systems-filled/24/000000/composing-mail.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px; 
+}
+
+input[type=password] {
+  
+  background-image: url('https://img.icons8.com/material/24/000000/forgot-password.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px; 
+}
+
+input[type=text] {
+  
+  background-image: url('https://img.icons8.com/metro/24/000000/user-male.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px; 
+}
+
+/*------------------------------center nav tabs-------------------------------------*/
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/*------------------------------card promotion------------------------------------*/
+
+.overlay-f {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 3px;
+
+}
+
+
+.single_team:hover .overlay-f  {
+  background-color: #696565;
+  opacity:0.9;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+}
+.team_thumb{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.team_thumb img{
+  
+  border-radius: 3px;
+}
+
+
+.single_team{
+  position: relative;
+  width: 96%;
+}
+/*---------------------------------------titre des card------------------------------*/
+.font-title-card{
+background-color: #e8e8e8;
+font-family: cursive;
+}
+.font-prix{
+  font-size: 20;
+  color: #706f6f;
+
+}
+.font-prix-promo{
+  font-size: 30px;
+  color: black;
+  
+}
+
+.bac-color{
+  background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

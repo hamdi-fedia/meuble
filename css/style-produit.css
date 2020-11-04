@@ -1,0 +1,63 @@
+.img-font {
+      width: 100vw;
+      height: 70vh;
+      background: url('../img/accueil/slide3.PNG');
+      background-size: cover;
+}
+
+.font-color-pers{
+	background-color: #e3cfcf;
+}
+
+.img-font-cuis{
+      width: 100vw;
+      height: 70vh;
+      background: url('../img/accueil/acc-prod.png');
+      background-size: cover;
+}
+
+
+/*------------------------------card promotion------------------------------------*/
+
+
+
+
+.single_team:hover .overlay-f  {
+  background-color: #696565;
+  opacity:0.9;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+}
+.team_thumb{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.team_thumb img{
+  
+  border-radius: 3px;
+  width:240px; 
+  height:130px;
+}
+
+
+.single_team{
+  position: relative;
+  width: 95%;
+}
+
+
+.font-color{
+	background-color: #ebebeb;
+	height: 60px;
+	font-size: 30px;
+}
