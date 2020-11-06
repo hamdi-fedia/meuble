@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Meubdeco</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-------------------------------------------------- lien CSS /js ------------------------------------------------->
@@ -14,7 +15,7 @@
 <body>
 	<header>
 		<!----------------------------------------------navbar------------------------------------------------------ -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light trn">
 			<a href="index.html" class="navbar-brand">
 				<!----------- Logo Image------------------------ -->
 				<div class="logo">
@@ -26,23 +27,22 @@
 			</button>
 			<div class="collapse navbar-collapse  " id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active ">
-						<a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+					<li class="nav-item  ">
+						<a class="nav-link" href="index.html">Accueil </a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Produits
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Meuble</a>
 							<a class="dropdown-item" href="produit.html">Salon</a>
 							<a class="dropdown-item" href="produitchambre.html">Chambre</a>
 							<a class="dropdown-item" href="produitcuisine.html">Cuisine</a>
 							<a class="dropdown-item" href="produitsallebain.html">Salle de bain</a>
 						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="perssonalisere.html">Perssonalisee</a>
+					<li class="nav-item active">
+						<a class="nav-link" href="perssonalisere.html">Perssonalisee <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" > Connexion / Inscription </a>
@@ -167,33 +167,18 @@
 						<!------------------------------------------- panier  --------------------------------------------------------->
 						<li class="nav-item">
 
-							<img src="https://img.icons8.com/ios/50/000000/buy.png" width="25px" height="25px"  data-toggle="modal" data-target="#exampleModalCenter"/>
-<!--------------------------------------------- Modal panier-------------------------------------------------->
-							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											...
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-											<button type="button" class="btn btn-primary">Save changes</button>
-										</div>
-									</div>
-								</div>
-							</div>
+							<a class="nav-link" href="panier.html">
+							<img src="https://img.icons8.com/ios/50/000000/buy.png" width="25px" height="25px"/>
+                            </a>
+							<!--------------------------------------------- Modal panier-------------------------------------------------->
+							
 						</li>
 
 					</ul>
 				</div>
 			</nav>
 		</header>
+
 		<!-----------------------------------------slide--------------------------------------------------->
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -267,7 +252,7 @@
 			<div class="font-service">
 				<br>
 				<div class="d-flex justify-content-center">
-					<div class="font-border">Services</div>
+					<div class="font-border styl">Services</div>
 				</div>
 				<br>
 				<div class="container">
@@ -457,28 +442,31 @@
 
 			<!-- Modal -->
 
-			<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
+			<div class="modal fade font-modal " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+				<div class="modal-dialog  modal-lg" role="document">
+					<div class="modal-content ">
 						<div class="modal-body "  >
-
-							<div class="text-center">
-
-								<img src="img/accueil/salon.jpg" width="100%" height="100%" > 
-
-							</div>
-							<h2>Dimensions:</h2>
+                          <div class="container">
+                          	<div class="row">
+                            <div class="col-sm-12 col-md-8">
+                            	<img src="img/accueil/salon.jpg" width="100%" height="100%" >
+                            </div>
+                            <div class="col-sm-12 col-md-4 font-mod">
+                            	<h2>Dimensions:</h2>
 							2m60 x1m80 <br> 
 							3 Grand Coussin + 2 Coussins décoratifs Carrés + Cousin Sandwich <br> 
 							<h3>Tissu:</h3> velours au Toile <br> 
-							<div class="container">
+                            </div>
+                            </div>
+                        </div>
+                            <div class="container">
 								<div class="row">
 									<div class="col-md-4"><img src="img/salon/salon-baige.jpg" width="100%" height="70%" ></div>
 									<div class="col-md-4"><img src="img/salon/salon-gris.jpg" width="100%" height="70%" ></div>
 									<div class="col-md-4"><img src="img/salon/salon-rose.jpg" width="100%" height="70%" ></div>
 								</div>
 							</div>
-						</div>
+                          </div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
 							<button type="button" class="btn btn-outline-secondary">Ajouter au panier</button>
