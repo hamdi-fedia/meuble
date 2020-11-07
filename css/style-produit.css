@@ -108,3 +108,21 @@ b{
   font-size: 22px;
   padding: 10px;
 }
+
+/*****************************line vertical**********************************/
+.vl {
+  border-left: 2px solid ;
+  height: 500px;
+}
+
+/*************************font titre form********************/
+.fon{
+  font-size: 40px;
+  color: #616161;
+}
+
+/****************************font form*******************/
+.fontform{
+
+  background-color:  #f5f5f5;
+}
