@@ -13,7 +13,7 @@
 	<link rel="icon" type="image/png" href="img/meub.png" />
 </head>
 <body>
-<header>
+	<header>
 		<!----------------------------------------------navbar------------------------------------------------------ -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light trn">
 			<a href="index.html" class="navbar-brand">
@@ -30,866 +30,930 @@
 					<li class="nav-item  ">
 						<a class="nav-link" href="index.html">Accueil </a>
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item active dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Produits
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="produit.html">Salon</a>
-							<a class="dropdown-item" href="produitchambre.html">Chambre</a>
-							<a class="dropdown-item" href="produitcuisine.html">Cuisine</a>
-							<a class="dropdown-item" href="produitsallebain.html">Salle de bain</a>
-						</div>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="perssonalisere.html">Perssonalisee <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" > Connexion / Inscription </a>
-						<!-------------------------------------------- modarl Connexion  --------------------------------------------->       
-						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-dialog-centered">
-								<div class="modal-content">
+							<span class="sr-only">(current)</span></a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="produit.html">Salon</a>
+								<a class="dropdown-item" href="produitchambre.html">Chambre</a>
+								<a class="dropdown-item" href="produitcuisine.html">Cuisine</a>
+								<a class="dropdown-item" href="produitsallebain.html">Salle de bain</a>
+							</div>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="perssonalisere.html">Personnalisé </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" > Connexion / Inscription </a>
+							<!-------------------------------------------- modarl Connexion  --------------------------------------------->       
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
 
-									<div class="nav nav-tabs" id="nav-tab" role="tablist">
-										<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Connexion</a>
+										<div class="nav nav-tabs" id="nav-tab" role="tablist">
+											<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Connexion</a>
 
-										<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Inscription</a>
-									</div>
-
-									<div class="modal-body">
-										<div class="tab-content" id="nav-tabContent">
-											<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-												<form class="needs-validation" novalidate>
-													<div class="form-row">
-														<br>
-														<div class="col-md-12 mb-3">
-															<label for="validationCustomUsername">Mail</label>
-															<input type="email" class="form-control" id="validationCustomUsername" placeholder="saisir votre mail" aria-describedby="inputGroupPrepend" required>
-															<div class="invalid-feedback">
-																Veuillez choisir un mail
-															</div>
-														</div>
-													</div>
-													<div class="form-row">
-														<div class="col-md-12 mb-3">
-															<label for="validationCustomUsername">Mot de passe</label>
-															<input type="password" class="form-control" id="validationCustomUsername" placeholder="saisir votre mot de passe" aria-describedby="inputGroupPrepend" required>
-															<div class="invalid-feedback">
-																Veuillez saisir le mot de passe 
-															</div>
-														</div>
-													</div>
-													<div class="text-center">
-														<button type="button" class="btn btn-secondary" data-dismiss="modal">annuler</button>
-														<button class="btn btn-warning" type="submit">Connexion </button>
-													</div>
-													<!----------------------------------------------form inscription------------------------------------------------ -->
-												</form>
-											</div>
-											<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-												<form class="needs-validation" novalidate>
-
-													<div class="form-row">
-														<div class="col-md-12 mb-3">
-
-															<label for="validationCustomUsername">Nom</label>
-															<input type="text" class="form-control" id="validationCustomUsername" placeholder="saisir votre nom" aria-describedby="inputGroupPrepend" required>
-															<div class="invalid-feedback">
-																Merci de saisir votre nom 
-															</div>
-
-														</div>
-													</div>
-													<div class="form-row">
-														<div class="col-md-12 mb-3">
-
-															<label for="validationCustomUsername">Prenom</label>
-
-															<input type="text" class="form-control" id="validationCustomUsername" placeholder="saisir votre prenom" aria-describedby="inputGroupPrepend" required>
-															<div class="invalid-feedback">
-																Merci de saisir votre prenom 
-															</div>
-
-														</div>
-													</div>
-													<div class="form-row">
-														<br>
-														<div class="col-md-12 mb-3">
-															<label for="validationCustomUsername">Mail</label>
-															<input type="email" class="form-control" id="validationCustomUsername" placeholder="saisir votre mail" aria-describedby="inputGroupPrepend" required>
-															<div class="invalid-feedback">
-																Merci de saisir votre mail
-															</div>
-														</div>
-													</div>
-													<div class="form-row">
-														<div class="col-md-12 mb-3">
-															<label for="validationCustomUsername">Mot de passe</label>
-
-															<input type="password" class="form-control" id="validationCustomUsername" placeholder="saisir votre mot de passe" aria-describedby="inputGroupPrepend" required>
-															<div class="invalid-feedback">
-																Merci de saisir votre mot de passe 
-															</div>
-
-														</div>
-													</div>
-													<div class="text-center"> 
-														ou
-													</div>
-													<div class="row">
-														<div class="col-md-3 mb-3"></div>
-														<div class="col-md-2 mb-3"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></div>
-														<div class="col-md-2 mb-3"><img src="https://img.icons8.com/color/48/000000/facebook.png"/>
-														</div>
-														<div class="col-md-2 mb-3"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/>
-														</div>
-
-
-													</div>
-													<div class="text-center">
-														<button type="button" class="btn btn-secondary" data-dismiss="modal">Anuuler</button>
-														<button class="btn btn-warning" type="submit">Inscription </button>
-													</div>
-												</form>
-											</div> 
+											<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Inscription</a>
 										</div>
 
-										<!---------------------------------------------fin form------------------------------------------------->
+										<div class="modal-body">
+											<div class="tab-content" id="nav-tabContent">
+												<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+													<form class="needs-validation" novalidate>
+														<div class="form-row">
+															<br>
+															<div class="col-md-12 mb-3">
+																<label for="validationCustomUsername">Mail</label>
+																<input type="email" class="form-control" id="validationCustomUsername" placeholder="saisir votre mail" aria-describedby="inputGroupPrepend" required>
+																<div class="invalid-feedback">
+																	Veuillez choisir un mail
+																</div>
+															</div>
+														</div>
+														<div class="form-row">
+															<div class="col-md-12 mb-3">
+																<label for="validationCustomUsername">Mot de passe</label>
+																<input type="password" class="form-control" id="validationCustomUsername" placeholder="saisir votre mot de passe" aria-describedby="inputGroupPrepend" required>
+																<div class="invalid-feedback">
+																	Veuillez saisir le mot de passe 
+																</div>
+															</div>
+														</div>
+														<div class="text-center">
+															<button type="button" class="btn btn-secondary" data-dismiss="modal">annuler</button>
+															<button class="btn btn-warning" type="submit">Connexion </button>
+														</div>
+														<!----------------------------------------------form inscription------------------------------------------------ -->
+													</form>
+												</div>
+												<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+													<form class="needs-validation" novalidate>
+
+														<div class="form-row">
+															<div class="col-md-12 mb-3">
+
+																<label for="validationCustomUsername">Nom</label>
+																<input type="text" class="form-control" id="validationCustomUsername" placeholder="saisir votre nom" aria-describedby="inputGroupPrepend" required>
+																<div class="invalid-feedback">
+																	Merci de saisir votre nom 
+																</div>
+
+															</div>
+														</div>
+														<div class="form-row">
+															<div class="col-md-12 mb-3">
+
+																<label for="validationCustomUsername">Prenom</label>
+
+																<input type="text" class="form-control" id="validationCustomUsername" placeholder="saisir votre prenom" aria-describedby="inputGroupPrepend" required>
+																<div class="invalid-feedback">
+																	Merci de saisir votre prenom 
+																</div>
+
+															</div>
+														</div>
+														<div class="form-row">
+															<br>
+															<div class="col-md-12 mb-3">
+																<label for="validationCustomUsername">Mail</label>
+																<input type="email" class="form-control" id="validationCustomUsername" placeholder="saisir votre mail" aria-describedby="inputGroupPrepend" required>
+																<div class="invalid-feedback">
+																	Merci de saisir votre mail
+																</div>
+															</div>
+														</div>
+														<div class="form-row">
+															<div class="col-md-12 mb-3">
+																<label for="validationCustomUsername">Mot de passe</label>
+
+																<input type="password" class="form-control" id="validationCustomUsername" placeholder="saisir votre mot de passe" aria-describedby="inputGroupPrepend" required>
+																<div class="invalid-feedback">
+																	Merci de saisir votre mot de passe 
+																</div>
+
+															</div>
+														</div>
+														<div class="text-center"> 
+															ou
+														</div>
+														<div class="row">
+															<div class="col-md-3 mb-3"></div>
+															<div class="col-md-2 mb-3"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></div>
+															<div class="col-md-2 mb-3"><img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+															</div>
+															<div class="col-md-2 mb-3"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/>
+															</div>
+
+
+														</div>
+														<div class="text-center">
+															<button type="button" class="btn btn-secondary" data-dismiss="modal">Anuuler</button>
+															<button class="btn btn-warning" type="submit">Inscription </button>
+														</div>
+													</form>
+												</div> 
+											</div>
+
+											<!---------------------------------------------fin form------------------------------------------------->
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+
+							<!------------------------------- panier  --------------------------------------------------------->
+							<li class="nav-item">
+
+								<a class="nav-link" href="panier.html">
+									<img src="https://img.icons8.com/ios/50/000000/buy.png" width="25px" height="25px"/>
+								</a>
+								<!----------------------------------- Modal panier-------------------------------------------------->
+
+							</li>
+
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+
+			<div class="img-font-1">
+
+				<h1 class=" font-pos">choisir votre salon</h1>                                                                                 
+
+			</div>	
+
+
+			<br>
+			<br>
+			<nav>
+				<div class="nav nav-tabs font-color" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link color-font active" id="nav-home-tab" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-home" aria-selected="true">Salon Complet</a>
+					<a class="nav-item nav-link color-font" id="nav-profile-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-profile" aria-selected="false">Meuble TV</a>
+					<a class="nav-item nav-link color-font" id="nav-contact-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-contact" aria-selected="false">Tables</a>
+					<a class="nav-item nav-link color-font" id="nav-contact-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-contact" aria-selected="false">Canapé</a>
+
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<!--------------------------------Salon Complet----------------------->
+
+				<div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-home-tab">
+					<br><br>
+
+					<div class="team_area ">     
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/accueil/salon.jpg" width="100%" height="100%"  >  
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 4.850 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  3.700 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/salon/salon2.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+
+													</div>
+													<div class="col-md-6 font-prix-promo"> 3.800 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/salon/salon3.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 5.250 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  4.999 DT </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/salon/salon4.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+
+													</div>
+													<div class="col-md-6 font-prix-promo">  3.950 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
 									</div>
 								</div>
 							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
 
-						<!------------------------------------------- panier  --------------------------------------------------------->
-						<li class="nav-item">
 
-							<a class="nav-link" href="panier.html">
-							<img src="https://img.icons8.com/ios/50/000000/buy.png" width="25px" height="25px"/>
-                            </a>
-							<!--------------------------------------------- Modal panier-------------------------------------------------->
-							
-						</li>
+						</div>
 
-					</ul>
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/salon/salon1.jpg" width="100%" height="100%"  > 
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 5.850 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  4.700 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+								</div>
+								<div class="col-sm-12 col-md-3">
+								</div>
+								<div class="col-sm-12 col-md-3">
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
 				</div>
-			</nav>
-		</header>
 
 
- <div class="img-font-1">
-
-   <h1>choisier votre salon</h1>
-
-                    
-
-                                                                                     
-
- </div>	
 
 
-<br>
-<br>
-<nav>
-  <div class="nav nav-tabs font-color" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link color-font active" id="nav-home-tab" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-home" aria-selected="true">Salon Complet</a>
-    <a class="nav-item nav-link color-font" id="nav-profile-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-profile" aria-selected="false">Meuble TV</a>
-    <a class="nav-item nav-link color-font" id="nav-contact-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-contact" aria-selected="false">Tables</a>
-    <a class="nav-item nav-link color-font" id="nav-contact-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-contact" aria-selected="false">Canapé</a>
 
-  </div>
-</nav>
-<div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-home-tab">
-   <br><br>
 
-	<div class="team_area ">     
-				<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/salon/salon1.jpg" width="100%" height="100%"  >  
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 4.850 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  3.700 DT </div>
-						      </div>
-								 </div>
+
+
+
+
+
+				<!----------------------Meuble TV--------------------------------->
+
+
+
+				<div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-profile-tab">
+					<br><br>
+
+					<div class="team_area ">     
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/meuble-tv/tv1.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 750 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo"> 600 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/meuble-tv/tv2.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+
+													</div>
+													<div class="col-md-6 font-prix-promo"> 600 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/meuble-tv/tv3.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+
+													</div>
+													<div class="col-md-6 font-prix-promo">  599 DT </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/meuble-tv/tv4.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 750 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  550 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/salon/salon2.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						          
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 3.800 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
 
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
+
 						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/salon/salon3.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 5.250 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  4.999 DT </div>
-						      </div>
-								 </div>
+
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/meuble-tv/tv5.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 850 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  700 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
 
 								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
+								<div class="col-sm-12 col-md-3">
+
+								</div>
+								<div class="col-sm-12 col-md-3">
+
 								</div>
 							</div>
+
+
 						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/salon/salon4.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
+
+					</div>
+
+
+
+					<!------------------------------------Tables------------------->
+
+
+
+				</div>
+				<div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-contact-tab">
+					<br><br>
+
+
+
+					<div class="team_area ">     
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab1.jpg" width="100%" height="100%"  >  
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 150 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  100 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab2.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+
+													</div>
+													<div class="col-md-6 font-prix-promo"> 160 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab3.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 250 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  199 DT </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab4.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 150 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo"> 95 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab5.jpg" width="100%" height="100%"  >  
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 85 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  70 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab6.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 100 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo"> 80 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/tables/tab7.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 105 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  85 DT </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+								</div>
+							</div>
+
+
+						</div>
+
+
+					</div>
+				</div>
+
+
+				<!--------------------------------------Canapé------------------------->
+				<div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-contact-tab">
+					<br><br>
+
+
+					<div class="team_area ">     
+						<div class="container">
+							<div class="row py-3">
+								<div class="col-sm-12 col-md-3 ">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/canape/canape1.jpg" width="100%" height="100%"  >  
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 350 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo">  250 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/canape/canape2.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+														<s> 400 DT</s>  
+													</div>
+													<div class="col-md-6 font-prix-promo"> 300 DT </div>
+												</div>
+											</div>
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+									<div class="single_team">
+										<div class="team_thumb">
+											<img src="img/canape/canape1.jpg" width="100%" height="100%"  >
+											<div class="container font-title-card">
+												<div class="row">
+													<div class="col-md-2 font-prix">
+														prix 
+													</div>
+													<div class="col-md-4">
+
+													</div>
+													<div class="col-md-6 font-prix-promo"> 399 DT </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="overlay-f">
+											<div  class="text">
+												<img src="https://img.icons8.com/ios/50/000000/visible.png"/>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-3">
+								</div>
+
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="modal fade  " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+					<div class="modal-dialog  modal-lg" role="document">
+						<div class="modal-content ">
+							<div class="modal-body "  >
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-12 col-md-8">
+											<img src="img/accueil/salon.jpg" width="100%" height="100%" >
+										</div>
+										<div class="col-sm-12 col-md-4">
+											<h2>Dimensions:</h2>
+											2m60 x1m80 <br> 
+											3 Grand Coussin + 2 Coussins décoratifs Carrés + Cousin Sandwich <br> 
+											<h3>Tissu:</h3> velours au Toile <br> 
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+									<button type="button" class="btn btn-outline-secondary">Ajouter au panier</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+        </div>
+
+					<div class="modal fade  " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+						<div class="modal-dialog  modal-lg" role="document">
+							<div class="modal-content ">
+								<div class="modal-body "  >
+									<div class="container">
 										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						         
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  3.950 DT </div>
-						      </div>
-								 </div>
+											<div class="col-sm-12 col-md-8">
+												<img src="img/meuble-tv/tv1.jpg" width="100%" height="100%" >
+											</div>
+											<div class="col-sm-12 col-md-4">
+												<h2>Dimensions:</h2>
+												2m60 x1m80 <br> 
+												3 Grand Coussin + 2 Coussins décoratifs Carrés + Cousin Sandwich <br> 
+												<h3>Tissu:</h3> velours au Toile <br> 
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+										<button type="button" class="btn btn-outline-secondary">Ajouter au panier</button>
+									</div>
 								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
+
 							</div>
 						</div>
 					</div>
 
-					
-				</div>
 
-			<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/salon/salon1.jpg" width="100%" height="100%"  > 
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 5.850 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  4.700 DT </div>
-						      </div>
-								 </div>
+
+
+
+						<br><br><br>
+
+
+
+
+
+
+
+
+
+
+						<!-- Footer -->
+
+						<!-- Footer -->
+						<section id="footer">
+							<br>
+							<br>
+							<div class="container">
+								<div class="row text-center text-xs-center text-sm-left text-md-left">
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<h5>Meubdeco</h5>
+										<ul class="list-unstyled quick-links">
+											<a href="index.html"><li><i class="fa fa-angle-double-right"></i>Accueil</li></a>
+											<a href="produits.html"><li><i class="fa fa-angle-double-right"></i>Produit</li></a>
+											<a href="perssonalisere.html"><li><i class="fa fa-angle-double-right"></i>Personnalisé</li></a>	
+											<a href="contact.html"><li><i class="fa fa-angle-double-right"></i>Contact</li></a>	
+
+
+
+
+										</ul>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<h5>Les services</h5>
+										<ul class="list-unstyled quick-links">
+											<li><i class="fa fa-angle-double-right"></i>Assitance technique </li>
+											<li><i class="fa fa-angle-double-right"></i>paiment a la livraison</li>
+											<li><i class="fa fa-angle-double-right"></i>livraison sur tout la tunis</li>
+											<li><i class="fa fa-angle-double-right"></i>Notre object est 100% de client satisfaits</li>
+											<li><i class="fa fa-angle-double-right"></i>Service commercial 7j/7j</li>
+
+										</ul>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<h5>Contact</h5>
+										<ul class="list-unstyled quick-links">
+											<li>
+												<i class="fa fa-angle-double-right"></i>
+												<img src="https://img.icons8.com/material-rounded/26/000000/important-mail.png"/>
+												Meubdeco@gmail.com
+											</li>
+											<li><i class="fa fa-angle-double-right"></i>
+												<img src="https://img.icons8.com/metro/26/000000/phone.png"/>
+
+											71852963</li>
+
+											<li><i class="fa fa-angle-double-right"></i>
+												<img src="https://img.icons8.com/android/24/000000/facebook.png"/>
+											Meubdeco</li>
+
+
+
+
+
+										</ul>
+									</div>
 								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
-								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+										<p class="h6">© copyright Hamdi Fedia</p>
+									</div>
+									<hr>
+								</div>  
 							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-						</div>
-						<div class="col-sm-12 col-md-3">
-						</div>
-						<div class="col-sm-12 col-md-3">
-						</div>
-					</div>
+						</section>
+						<!-- ./Footer -->
 
-					
-			</div>
 
-			</div>
-	</div>
 
 
+					</body>
+					</html>
 
 
- 
 
 
-
-
-
-
-
-
-
-
-  <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-profile-tab">
-<br><br>
-
-  <div class="team_area ">     
-				<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/meuble-tv/tv1.jpg" width="100%" height="100%"  >
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 750 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 600 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/meuble-tv/tv2.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						         
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 600 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/meuble-tv/tv3.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  599 DT </div>
-						      </div>
-								 </div>
-
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/meuble-tv/tv4.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 750 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  550 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-					</div>
-
-					
-				</div>
-
-			<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/meuble-tv/tv5.jpg" width="100%" height="100%"  >
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 850 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  700 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							
-						</div>
-						<div class="col-sm-12 col-md-3">
-							
-						</div>
-						<div class="col-sm-12 col-md-3">
-					
-						</div>
-					</div>
-
-					
-			</div>
-
-			</div>
-
-
-
-
-
-
-  
-  </div>
-  <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-contact-tab">
-  <br><br>
-
-
-
-  <div class="team_area ">     
-				<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab1.jpg" width="100%" height="100%"  >  
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 150 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  100 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab2.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						          
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 160 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab3.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 250 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  199 DT </div>
-						      </div>
-								 </div>
-
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab4.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 150 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 95 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-					</div>
-
-					
-				</div>
-
-			<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab5.jpg" width="100%" height="100%"  >  
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 85 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  70 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab6.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 100 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 80 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/tables/tab7.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 105 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  85 DT </div>
-						      </div>
-								 </div>
-
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-						</div>
-					</div>
-
-					
-			</div>
-			
-
-			</div>
-  </div>
-  <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-contact-tab">
-  <br><br>
-
-
-  <div class="team_area ">     
-				<div class="container">
-					<div class="row py-3">
-						<div class="col-sm-12 col-md-3 ">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/canape/canape1.jpg" width="100%" height="100%"  >  
-									  <div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 350 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo">  250 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									 <div  class="text">
-									 	<img src="https://img.icons8.com/ios/50/000000/visible.png" data-toggle="modal" data-target="#exampleModalLong"/>
-									 </div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/canape/canape2.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						        <s> 400 DT</s>  
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 300 DT </div>
-						      </div>
-								 </div>
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-							<div class="single_team">
-								<div class="team_thumb">
-									<img src="img/canape/canape1.jpg" width="100%" height="100%"  >
-									<div class="container font-title-card">
-										<div class="row">
-										<div class="col-md-2 font-prix">
-						        prix 
-						        </div>
-						        <div class="col-md-4">
-						          
-						      </div>
-						        <div class="col-md-6 font-prix-promo"> 399 DT </div>
-						      </div>
-								 </div>
-
-								</div>
-								<div class="overlay-f">
-									<div  class="text">
-									 <img src="https://img.icons8.com/ios/50/000000/visible.png"/>
-									 </div>
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12 col-md-3">
-					</div>
-
-					
-				</div>
-
-
-			</div>
-  </div>
-</div>
-
-<br><br><br>
-
-
-
-
-
-
-
-
-
-
-	<!-- Footer -->
-	<section id="footer">
-		<br>
-		<br>
-		<div class="container">
-			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Meubdeco</h5>
-					<ul class="list-unstyled quick-links">
-						<li><i class="fa fa-angle-double-right"></i>Accueil</li>
-						<li><i class="fa fa-angle-double-right"></i>Produit</li>
-						<li><i class="fa fa-angle-double-right"></i>Promotion</li>
-						<li><i class="fa fa-angle-double-right"></i>perssonalisée</li>
-						<li><i class="fa fa-angle-double-right"></i>contact</li>
-
-
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Les services</h5>
-					<ul class="list-unstyled quick-links">
-						<li><i class="fa fa-angle-double-right"></i>Assitance technique </li>
-						<li><i class="fa fa-angle-double-right"></i>paiment a la livraison</li>
-						<li><i class="fa fa-angle-double-right"></i>livraison sur tout la tunis</li>
-						<li><i class="fa fa-angle-double-right"></i>notre object est 100% de client satisfaits</li>
-						<li><i class="fa fa-angle-double-right"></i>service commercial 7j/7j</li>
-
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Contact</h5>
-					<ul class="list-unstyled quick-links">
-						<li>
-							<i class="fa fa-angle-double-right"></i>
-							<img src="https://img.icons8.com/material-rounded/26/000000/important-mail.png"/>
-						    Meubdeco@gmail.com
-						</li>
-						<li><i class="fa fa-angle-double-right"></i>
-                       <img src="https://img.icons8.com/metro/26/000000/phone.png"/>
-
-						71852963</li>
-						
-						<li><i class="fa fa-angle-double-right"></i>
-							<img src="https://img.icons8.com/android/24/000000/facebook.png"/>
-						Meubdeco</li>
-						
-		
-						
-						
-
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p class="h6">© copyright Hamdi Fedia</p>
-				</div>
-				<hr>
-			</div>  
-		</div>
-	</section>
-	<!-- ./Footer -->
-
-
-
-
-</body>
-</html>
-
-
-
-
-<script>
+					<script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
 	'use strict';
