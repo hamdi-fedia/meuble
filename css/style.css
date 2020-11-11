@@ -7,23 +7,30 @@ nav{
 li{
   font-family: cursive;
   padding-left: 30px;
+  font-size: 140%;
 
 }
+/*------------------------------center nav tabs-------------------------------------*/
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 /*---------------------------------------font service-------------------------------------*/
 .font-service{
 background-color: rgb(71, 69, 69,0.5);
 }
-/*--------------------------font contact-------------------------*/
-.font-contact{
-  background-image: url("https://images.pexels.com/photos/2008145/pexels-photo-2008145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+
+.hove-big:hover  {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.hove-coler:hover{
+  background-color: #F2D8CE;
+  transition: 2s;
 }
 
-/*------------------------------------text contact font-------------------*/
-.text-font{
-  font-family: cursive;
-  color: white;
-  background-color: rgb(0, 0, 0,0.5);
-}
 
 /*-----------------------------------font back model-----------------------------------------*/
 
@@ -33,14 +40,11 @@ background-color: rgb(71, 69, 69,0.5);
 }
 /****************************************gallery*****************************************/
 .gallery .gallery-item {
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
-
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
 }
-
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
@@ -53,12 +57,9 @@ background-color: rgb(71, 69, 69,0.5);
   background-color: rgb(0, 0, 0,0.5);
 
 }
-
 /***********************************************footer**********************************************/
 
 #footer {
-    //*background: #616161 !important;
-    color:#9e9b9b; */
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #F2F2F2 0%, #F2C1BD  100%);
 
@@ -74,7 +75,14 @@ background-color: rgb(71, 69, 69,0.5);
    color: black;
  }
  #footer a {
-  color: black; !important;
+  color: black !important;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer p {
+  font-family: cursive;
+  color: black !important;
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -87,7 +95,7 @@ background-color: rgb(71, 69, 69,0.5);
   transition: .5s all ease;
 }
 
-#footer ul.quick-links li:hover{
+#footer ul.quick-links  li:hover{
   padding: 3px 0;
   margin-left:5px;
   font-weight:700;
@@ -111,30 +119,18 @@ background-color: rgb(71, 69, 69,0.5);
    background-attachment: fixed;
    background-size: cover;
  }
-}
-/*-------------------------------------------------background description-----------------------------------*/
-.fontcolor{
-  background: black;
-  color: white;
-  opacity: 0.5 ;
-}
-/*-----------------------font border titre---------------------------------------*/
+
+
+/*-----------------------font border de tout les  titres---------------------------------------*/
 .font-border{
   padding-left: 10px;
   border-left: 7px solid ;
   padding-bottom: 6px;
   margin-bottom: 20px;
   font-size: 50px;
-}
+    font-family: cursive;
 
-
-.hove-big:hover  {
-  transform: scale(1.1);
 }
-.hove-coler:hover{
-  background-color: #F2D8CE;
-}
-
 
 /*-------------------------------form icons--------------------------------------------------*/
 input[type=email] {
@@ -161,12 +157,6 @@ input[type=text] {
   padding-left: 40px; 
 }
 
-/*------------------------------center nav tabs-------------------------------------*/
-.nav-tabs {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
 
 /*------------------------------card promotion------------------------------------*/
 
@@ -180,10 +170,7 @@ input[type=text] {
   width: 100%;
   opacity: 0;
   border-radius: 3px;
-
 }
-
-
 .single_team:hover .overlay-f  {
     background-color: rgb(105, 101, 101,0.5);
     opacity:0.9;
@@ -205,7 +192,6 @@ input[type=text] {
   border-radius: 6px;
 }
 .team_thumb img{
-  
   border-radius: 3px;
 }
 .single_team{
@@ -219,33 +205,27 @@ input[type=text] {
   font-family: cursive;
 }
 
-.font-prix{
-  font-size: 10;
-  color: #706f6f;
-
-}
+/*----------------------------font de prix------------------*/
 .font-prix-promo-1{
   font-size: 30px;
   color: black;  
 }
 
 .font-prix-1{
-  font-size: 20;
+  font-size: 30px;
   color: #706f6f;
 
 }
 s{
-  font-size: 11px;
+  font-size: 20px;
+  color: red;
 }
 
-.font-prix-promo{
- font-size: 20px;
- color: black;
-}
 
+/*----------------------------btn pink--------------------------*/
 
 .btn-outline-pink{
-  color: #BF8484;
+  color: white;
   background-color: transparent;
   background-image: none;
   border-color: #BF8484;
@@ -253,17 +233,25 @@ s{
 }
 .btn-outline-pink:hover {
   color: #fff;
-  background-color: #F2D8CE;
+  background-color: #BF8484;
   border-color: #F2D8CE;
 }
+.btn-outline-secondary:hover{
+  background-color: #BF8484;
+}
 
+/*-------------------------background description---------------*/
 .font-meub{
   background-color:#F2E0C9;
 
 }
+.fontfam{
+  font-family: cursive;
+}
 
-
-
+.shadow-lg{
+  box-shadow: 10px 5px 5px #c4c0c0;
+}
 
 
 

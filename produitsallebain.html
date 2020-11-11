@@ -42,10 +42,10 @@
 						</div>
 					</li>
 					<li class="nav-item ">
-						<a class="nav-link" href="perssonalisere.html">Perssonalisee </a>
+						<a class="nav-link" href="perssonalisere.html">Personnaliser </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" > Connexion / Inscription </a>
+						<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" > Se connecter </a>
 						<!-------------------------------------------- modarl Connexion  --------------------------------------------->       
 						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog modal-dialog-centered">
@@ -81,8 +81,8 @@
 														</div>
 													</div>
 													<div class="text-center">
-														<button type="button" class="btn btn-secondary" data-dismiss="modal">annuler</button>
-														<button class="btn btn-warning" type="submit">Connexion </button>
+														<button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+														<button class="btn btn-outline-secondary" type="submit">Connexion </button>
 													</div>
 													<!----------------------------------------------form inscription------------------------------------------------ -->
 												</form>
@@ -149,7 +149,7 @@
 													</div>
 													<div class="text-center">
 														<button type="button" class="btn btn-secondary" data-dismiss="modal">Anuuler</button>
-														<button class="btn btn-warning" type="submit">Inscription </button>
+														<button class="btn btn-outline-secondary" type="submit">Inscription </button>
 													</div>
 												</form>
 											</div> 
@@ -181,9 +181,13 @@
 
 
  <div class="img-font-salle text-center">
-
-   <h1 class=" font-pos">choisier votre salle de bain</h1>
-                                                                               
+   
+   <h1 class=" font-pos">
+   	<div class="opac p-5">
+   choisier votre salle de bain
+    </div>
+</h1>
+                                                                              
 
  </div>	 
  <br>
@@ -748,27 +752,32 @@
 
 
 
-
-	<!-- Footer -->
-	<section id="footer">
+<!--------------------------------------- Footer ----------------------------->
+		<div id="footer">
 			<br>
 			<br>
 			<div class="container">
 				<div class="row text-center text-xs-center text-sm-left text-md-left">
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<h5>Meubdeco</h5>
+						<p class="list-unstyled quick-links">
+							MeubDeco devient un laboratoire d'idées qui invite à singulariser son mobilier de manière ludique et récréative.
+						</p>
+						
+					</div>
+
+
+					<div class="col-xs-12 col-sm-3 col-md-3">
 						<h5>Meubdeco</h5>
 						<ul class="list-unstyled quick-links">
 							<a href="index.html"><li><i class="fa fa-angle-double-right"></i>Accueil</li></a>
 							<a href="produits.html"><li><i class="fa fa-angle-double-right"></i>Produit</li></a>
-							<a href="perssonalisere.html"><li><i class="fa fa-angle-double-right"></i>Personalise</li></a>	
-							<a href="contact.html"><li><i class="fa fa-angle-double-right"></i>Pontact</li></a>	
+							<a href="perssonalisere.html"><li><i class="fa fa-angle-double-right"></i>Personnalisé</li></a>	
+							<a href="contact.html"><li><i class="fa fa-angle-double-right"></i>Contact</li></a>	
 							
-							
-
-
 						</ul>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="col-xs-12 col-sm-3 col-md-3">
 						<h5>Les services</h5>
 						<ul class="list-unstyled quick-links">
 							<li><i class="fa fa-angle-double-right"></i>Assitance technique </li>
@@ -779,27 +788,25 @@
 
 						</ul>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4">
-						<h5>Contact</h5>
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<h5>Contact</h5><br>
 						<ul class="list-unstyled quick-links">
 							<li>
 								<i class="fa fa-angle-double-right"></i>
 								<img src="https://img.icons8.com/material-rounded/26/000000/important-mail.png"/>
 								Meubdeco@gmail.com
-							</li>
+							</li><br>
 							<li><i class="fa fa-angle-double-right"></i>
 								<img src="https://img.icons8.com/metro/26/000000/phone.png"/>
 
 							71852963</li>
 							
-							<li><i class="fa fa-angle-double-right"></i>
-								<img src="https://img.icons8.com/android/24/000000/facebook.png"/>
-							Meubdeco</li>
-							
-							
-							
-							
-
+							<li><i class="fa fa-angle-double-right"></i><br>
+						<a href="#"><img src="https://img.icons8.com/android/24/000000/facebook.png"/></a>	
+						<a href="#"><img src="https://img.icons8.com/material/33/000000/instagram-new--v1.png"/></a>	
+						<a href="#"><img src="https://img.icons8.com/android/24/000000/twitter.png"/>
+                        </a>
+						  </li>
 						</ul>
 					</div>
 				</div>
@@ -810,12 +817,8 @@
 					<hr>
 				</div>  
 			</div>
-		</section>
-		<!-- ./Footer -->
-
-
-
-
+		</div>
+		
 	</body>
 	</html>
 
@@ -839,6 +842,6 @@
     		form.classList.add('was-validated');
     	}, false);
     });
-}, false);
+   }, false);
 })();
 </script>
