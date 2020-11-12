@@ -5,16 +5,13 @@
   background-size: cover;
 }
 .img-font-1{
-  background-image: url('https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?cs=srgb&dl=pexels-pixabay-276583.jpg&fm=jpg');
-  width: 100vw;
-  height: 100vh;
   background-size: cover;
-
 }
+
 .font-pos{
   position: absolute;
   margin-left: 100px;
- padding-top: 200px;
+ padding-top: 0;
  color: black;
  font-size: 50px;
  font-family: cursive;
@@ -32,24 +29,18 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #c7ebdb 100%);
 }
 
 .img-font-cham{
-  width: 100vw;
-  height: 100vh;
-  background-image: url('https://images.pexels.com/photos/763148/pexels-photo-763148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
+ background-size: cover;
 }
-.img-font-cuis{
-  width: 100vw;
-  height: 100vh;
-  background-image: url('https://images.pexels.com/photos/279648/pexels-photo-279648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
 
+.img-font-cuis{
+   background-size: cover;
 }
 .img-font-salle{
- width: 100vw;
- height: 100vh;
- background-image: url('https://images.pexels.com/photos/4210314/pexels-photo-4210314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
- background-size: cover;
-
+  background-size: cover;
+}
+.img-font-per{
+   background-size: cover;
+  background: url("https://images.pexels.com/photos/4050387/pexels-photo-4050387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
 /*------------------------------card promotion------------------------------------*/
@@ -155,14 +146,14 @@ b{
 .mapouter{
   position:relative;
   text-align:right;
-  height:445px;width:907px;
-  }
+  height:85%;
+  width:100%;
+}
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
-  height:445px;
-  width:907px;
-
+  height:85%;
+  width:100%;
 }
 
 
@@ -197,4 +188,11 @@ color: #575353;
   color:black;
   
 }
+
+s{
+  font-size: 14px;
+  color: red;
+}
+
+
 
